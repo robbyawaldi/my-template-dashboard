@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-button.ant-btn-primary {
+  @apply rounded-[10px];
+  @apply bg-purple-400;
+}
+
+.my-checkbox .ant-checkbox-inner,
+.my-checkbox
+  .ant-checkbox-wrapper:hover
+  .ant-checkbox-checked
+  .ant-checkbox-inner {
+  @apply border-purple-700 !important;
+  @apply bg-purple-400 !important;
+}
+
+.my-select.ant-select .ant-select-selector,
+.my-select.ant-select .ant-select-selector .ant-select-selection-search-input {
+  @apply h-6;
+}
+
+.my-select .ant-select-arrow {
+  top: 40%;
+}
